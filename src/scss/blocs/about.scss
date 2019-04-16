@@ -1,0 +1,43 @@
+.about {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .about__card {
+    width: 20vw;
+    height: 65%;
+    border-radius: 10px;
+    box-shadow: 6px 4px 25px -15px black;
+    margin-right: 60px;
+    text-align: center;
+  }
+
+  .about__card--text {
+    text-align: left;
+  }
+
+  .myButton {
+    background: -webkit-linear-gradient(#744BE8, #6974F0, #54C0FF);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 2px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 12px 25px;
+    text-decoration: none;
+  }
+  .myButton:hover {
+    background-color: transparent;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+}
