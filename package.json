@@ -1,0 +1,25 @@
+{
+  "name": "Semaine-intensive-3D",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimongiVirgil/Semain-intensive-3D-groupe-11.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LimongiVirgil/Semain-intensive-3D-groupe-11/issues"
+  },
+  "homepage": "https://github.com/LimongiVirgil/Semain-intensive-3D-groupe-11#readme"
+}
