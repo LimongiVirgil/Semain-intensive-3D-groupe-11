@@ -1,11 +1,17 @@
 .about {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
+
+  .materiaux__titre {
+    margin-top: 20px;
+  }
 
   .materiaux {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    width: 80%;
+    margin: auto;
 
     div {
       height: 18vh;
@@ -46,18 +52,27 @@
   width: 100vw;
   height: 30vh;
   background-color: #444242;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  
+  .label__composant {
+    height: 100%;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
 
-  div {
-    height: 18vh;
-    width: 15vw;
-    text-align: center;
-
-    span {
-      display: block;
-      color: white;
+    div {
+      height: 18vh;
+      width: 15vw;
+      text-align: center;
+  
+      span {
+        margin-top: 15%;
+        display: block;
+        color: white;
+        text-align: left;
+      }
     }
   }
 }
