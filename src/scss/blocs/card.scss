@@ -1,17 +1,81 @@
 .card {
   height: 80vh;
   width: 100vw;
-  background-color: aqua;
+  font-family: 'Poppins', sans-serif;
+
+  h2 {
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-size: 19px;
+  }
 
   .cards {
     display: flex;
-    width: 100vw;
+    width: 90%;
     height: 70%;
-    background-color: red;
+    justify-content: space-evenly;
+    margin: auto;
+
+    h3 {
+      margin-top: 8%;
+      margin-bottom: 10%;
+      font-size: 18px;
+    }
+
+    img {
+      margin-top: 10%;
+    }
+
+    .card__texte {
+      text-align: left;
+      width: 80%;
+      margin: auto;
+
+      span {
+        font-size: 17px;
+      }
+    }
 
     .card__creation {
       width: 25%;
-      height: 100%;
+      height: 85%;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 10px 5px 25px rgb(185, 185, 185);
+    }
+
+    .card__reflexion {
+      width: 25%;
+      height: 85%;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 10px 5px 25px rgb(185, 185, 185);
+    }
+
+    .card__construction {
+      width: 25%;
+      height: 85%;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 10px 5px 25px rgb(185, 185, 185);
+    }
+  }
+
+  .button-section {
+    width: 100vw;
+    display: flex;
+
+    .button {
+      text-decoration: none;
+      background: -webkit-linear-gradient(#E6A519, #E05B19);
+      border-radius:28px;
+      border:2px solid #E6A519;
+      padding: 10px;
+      font-size: 16px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Poppins', sans-serif;
+      margin: auto;
     }
   }
 }
