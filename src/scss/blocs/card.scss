@@ -60,22 +60,4 @@
       box-shadow: 10px 5px 25px rgb(185, 185, 185);
     }
   }
-
-  .button-section {
-    width: 100vw;
-    display: flex;
-
-    .button {
-      text-decoration: none;
-      background: -webkit-linear-gradient(#E6A519, #E05B19);
-      border-radius:28px;
-      border:2px solid #E6A519;
-      padding: 10px;
-      font-size: 16px;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-family: 'Poppins', sans-serif;
-      margin: auto;
-    }
-  }
 }

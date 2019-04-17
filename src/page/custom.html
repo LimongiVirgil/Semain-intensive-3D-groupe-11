@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="../assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="../scss/style.scss">
+  <title>Face'Add</title>
+</head>
+<body>
+  <section>
+    <nav class="nav-text">
+      <img src="../assets/Titre.svg"/>
+      <ul class="nav-list">
+        <li class="nav-list-text">Customisation</li>
+        <li> <img class="nav-icon" src="../assets/icon_user.svg"/></li>
+        <li>Se connecter / s'incrire</li>
+        <li><img src="../assets/Langue.svg" class="Langue"></li>
+        <li><img src="../assets/panier.svg" class="panier"></li>
+      </ul>
+    </nav>
+    <section class="section-bloc">
+      <ul class="section-list">
+        <li>Nos Produits</li>
+        <li>Services</li>
+        <li>Nos Equipes</li>
+        <li>Nos Locaux</li>
+        <li>Contact</li>
+        <form>
+          <input type="text" name="search" placeholder="Chercher un produit">
+        </form>
+      </ul>
+    </section>
+  </section>
+    <section class="Unity">
+      <div class="Unity-bloc">
+        <div class="unity-button">
+          <img src="../assets/aide.svg" onclick="simulator_FB ()" id="aide"/>
+        </div>
+        <div id="pop-up-1">
+          <img src="../assets/arrow.svg" id="arrow-pop" onclick="simulator_FB_close ()"/>
+          <div id="pop-up-text">
+            <h1 class="pop-text">Comment concevoir votre devanture</h1>
+            <p class="Text"><em>1</em>Choissez le type de commerce</p>
+            <p class="text"><em>2</em> l'emplacement de votre entrée</p>
+            <p class="text"><em>3</em> parmis notre large gamme de produits pour habiller votre devanture et placez les directement sur la maquette</p>
+            <p class="text"><em>4</em>Envoyez-nous la maquette de votre devanture</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    var outButton = document.getElementById('#aide');
+    var main = document.getElementById("pop-up-1");
+    var hide = document.getElementById("arrow-pop");
+  
+    function simulator_FB (){
+      "use strict"
+      main.style.display = "block";
+    }
+  
+    function simulator_FB_close (){
+      "use strict"
+      main.style.display = "none";
+  
+    }
+  </script>
+</body>
+</html>
