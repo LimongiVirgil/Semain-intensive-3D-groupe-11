@@ -1,9 +1,32 @@
 .about {
   width: 100vw;
   height: 70vh;
+  margin-top: 50px;
 
   .materiaux__titre {
     margin-top: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #444242;
+    font-size: 18px;
+
+    .materiaux__titre--trait2 {
+      height: 1px;
+      width: 27%;
+      background-color: #444242;
+    }
+
+    .materiaux__titre--trait1 {
+      height: 1px;
+      width: 27%;
+      background-color: #444242;
+    }
   }
 
   .materiaux {
@@ -19,6 +42,9 @@
 
        span{
       display: block;
+      font-family: 'Poppins', sans-serif;
+      color: #444242;
+      font-size: 14px;
       }
     }
 
@@ -72,6 +98,13 @@
         display: block;
         color: white;
         text-align: left;
+        margin-left: 15%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+      }
+
+      .label__composant--texte {
+        margin-top: 21%;
       }
     }
   }

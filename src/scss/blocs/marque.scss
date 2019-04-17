@@ -3,8 +3,11 @@
   height: 100vh;
 
   h2 {
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #444242;
   }
 
   .marque__grid {
@@ -12,16 +15,16 @@
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px;
     justify-content: center;
     justify-self: center;
 
     div {
       .fnac__img {
         width: 100%;
+        height: 100%;
       }
-  
       .decathlon__img {
         width: 100%;
         height: 100%;
@@ -75,6 +78,14 @@
         height: 100%;
       }
       .tim__img {
+        width: 100%;
+        height: 100%;
+      }
+      .disney__img {
+        width: 100%;
+        height: 100%;
+      }
+      .zara__img {
         width: 100%;
         height: 100%;
       }
