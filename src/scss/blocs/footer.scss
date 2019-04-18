@@ -16,3 +16,48 @@
     margin-top: 65px;
   }
 }
+
+.footer {
+  width: 100vw;
+
+  hr {
+    width: 80%;
+  }
+}
+
+.footer__texte{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  color:  #444242;
+  line-height: 130%;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+.block-footer{
+  width: 267px;
+  height: 195px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+.line-footer{
+  position: relative;
+  top: 10%;
+}
+.titre-footer{
+  font-size: 15px;
+  font-weight: 500;
+}
+.text-footer{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer__image {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
