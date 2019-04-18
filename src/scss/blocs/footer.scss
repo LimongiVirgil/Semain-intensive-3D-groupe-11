@@ -19,7 +19,7 @@
 
 .footer {
   width: 100%;
-  margin-top: 27px;
+  margin-top: 10%;
 
   hr {
     width: 80%;
@@ -33,7 +33,7 @@
   line-height: 130%;
   width: 80%;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 .block-footer{
   width: 267px;
@@ -61,4 +61,20 @@
   margin: auto;
   display: flex;
   justify-content: flex-end;
+}
+
+.un {
+  width: 23%;
+}
+
+.deux {
+  width: 22%;
+}
+
+.trois {
+  width: 20%;
+}
+
+.quatre {
+  width: 15%;
 }

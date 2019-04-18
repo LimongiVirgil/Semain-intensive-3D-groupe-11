@@ -27,6 +27,12 @@
   li:nth-child(5) {
     margin-left: 15px;
   }
+
+  @media (min-width: 1600px) {
+    li {
+      font-size: 18px;  
+    }
+  }
 }
 
 .nav-icon{
@@ -60,7 +66,13 @@
   width: 50%;
   justify-content: space-around;
   width: 100%;
-  align-items: flex-end;
+  align-items: center;
+
+  @media (min-width: 1600px) {
+    li {
+      font-size: 18px;  
+    }
+  }
 }
 
 input[type=text] {
