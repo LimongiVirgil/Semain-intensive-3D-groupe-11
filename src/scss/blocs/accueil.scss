@@ -17,7 +17,7 @@
   align-items: center;
 
   li:nth-child(2) {
-    margin-left: 15px;
+    margin-left: 40px;
   }
 
   li:nth-child(4) {
@@ -30,7 +30,7 @@
 }
 
 .nav-icon{
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .Langue{
@@ -86,7 +86,7 @@ form {
   width: 100vw;
   display: flex;
   margin-top: -6%;
-  margin-bottom: 80px;
+  margin-bottom: 8%;
 
   .button {
     text-decoration: none;
@@ -99,6 +99,12 @@ form {
     color: #E6A519;
     font-family: 'Poppins', sans-serif;
     margin: auto;
+  }
+
+  @media (min-width: 1600px) {
+    .button {
+      font-size: 19px;  
+    }
   }
 }
 .accueil {

@@ -9,6 +9,12 @@
     font-size: 19px;
   }
 
+  @media (min-width: 1600px) {
+    h2 {
+      font-size: 21px;  
+    }
+  }
+
   .cards {
     display: flex;
     width: 90%;
@@ -34,6 +40,16 @@
       span {
         font-size: 17px;
       }
+
+      @media (min-width: 1600px) {
+        span {
+          font-size: 19px;  
+        }
+    
+        h3 {
+          font-size: 20px;
+        }
+      }
     }
 
     .card__creation {
@@ -42,6 +58,14 @@
       text-align: center;
       border-radius: 10px;
       box-shadow: 10px 5px 25px rgb(185, 185, 185);
+
+      h3 {
+        font-weight: 600;
+      }
+      
+      span {
+        font-weight: 100;
+      }
     }
 
     .card__reflexion {
@@ -50,6 +74,14 @@
       text-align: center;
       border-radius: 10px;
       box-shadow: 10px 5px 25px rgb(185, 185, 185);
+
+      h3 {
+        font-weight: 600;
+      }
+      
+      span {
+        font-weight: 100;
+      }
     }
 
     .card__construction {
@@ -58,6 +90,14 @@
       text-align: center;
       border-radius: 10px;
       box-shadow: 10px 5px 25px rgb(185, 185, 185);
+
+      h3 {
+        font-weight: 600;
+      }
+      
+      span {
+        font-weight: 100;
+      }
     }
   }
 }

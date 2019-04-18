@@ -4,7 +4,7 @@
   height: 753px;
   background-color: #444242;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .unity-button{
@@ -17,6 +17,33 @@
   height: 600px;
   background-color: #C4C4C4;
   position: relative;
+  margin-left: 27px;
+}
+.Unity-bloc-2{
+  background-color: white;
+  height: 600px;
+  width: 388px;
+  display: block;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 8px;
+}
+.bloc-text-1{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 3em;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.bloc-text-2{
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+.bloc-text-3{
+  font-size: 15px;
+  font-weight: 300;
 }
 
 #pop-up-1{
